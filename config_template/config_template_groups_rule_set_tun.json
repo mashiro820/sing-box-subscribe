@@ -224,9 +224,7 @@
       "type": "selector",
       "outbounds": [
         "Proxy",
-        {
-          "action": "reject"
-        },
+        "Reject",
         "direct"
       ]
     },
@@ -362,6 +360,10 @@
     {
       "type": "direct",
       "tag": "direct"
+    },
+    {
+      "tag": "Reject",
+      "type": "reject"
     }
   ],
   "route": {
