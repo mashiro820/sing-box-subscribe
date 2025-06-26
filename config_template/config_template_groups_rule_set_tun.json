@@ -156,7 +156,7 @@
         "America",
         "Others"
       ],
-      "default": "America"
+      "default": "Japan"
     },
     {
       "tag": "TikTok",
@@ -191,7 +191,8 @@
         "Singapore",
         "America",
         "Proxy"
-      ]
+      ],
+	  "default": "HongKong"
     },
     {
       "tag": "Microsoft",
@@ -213,7 +214,8 @@
         "Proxy",
         "Block",
         "direct"
-      ]
+      ],
+	  "default": "Proxy"
     },
     {
       "tag": "Global",
