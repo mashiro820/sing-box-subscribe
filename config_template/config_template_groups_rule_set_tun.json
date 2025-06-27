@@ -88,6 +88,11 @@
       "outbounds": [
         "auto",
         "direct",
+        "HongKong",
+        "TaiWan",
+        "Japan",
+        "America",
+        "Singapore",
         "{all}"
       ]
     },
