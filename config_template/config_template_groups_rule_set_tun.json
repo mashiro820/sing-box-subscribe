@@ -197,7 +197,7 @@
         "America",
         "Proxy"
       ],
-	  "default": "HongKong"
+      "default": "HongKong"
     },
     {
       "tag": "Microsoft",
@@ -220,20 +220,7 @@
         "Block",
         "direct"
       ],
-	  "default": "Proxy"
-    },
-    {
-      "tag": "Global",
-      "type": "selector",
-      "outbounds": [
-        "HongKong",
-        "TaiWan",
-        "Singapore",
-        "Japan",
-        "America",
-        "Others",
-        "direct"
-      ]
+      "default": "Proxy"
     },
     {
       "tag": "China",
@@ -458,7 +445,7 @@
       },
       {
         "rule_set": "geosite-geolocation-!cn",
-        "outbound": "Global"
+        "outbound": "Proxy"
       },
       {
         "rule_set": [
